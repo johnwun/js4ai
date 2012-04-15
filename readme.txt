@@ -1,3 +1,4 @@
+/* JS4AI on GitHub */
 This repository is a collection of John's scripts for Adobe Illustrator. 
 All scripts created by John Wundes unless otherwise noted.
 Full copyright text here:
