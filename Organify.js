@@ -18,15 +18,15 @@ var docRef= app.activeDocument;
 
 if ( app.documents.length > 0)
 {	
-	max = activeDocument.selection.length;
-	//alert(max);
+	sel = activeDocument.selection;
+	max = sel.length;
+
 	rvar  = prompt("How much stray? (in points)",30); 
 	uchoice= prompt("Enter\t'1' for anchors only (Spikey),\n\t'2' for handles only (Bulbous), or\n\t'3' for both anchors and handles (Chaotic)",3); 
 
-	sel = activeDocument.selection[0];
 	for(var cpi=0;cpi<max;cpi++){
-		currentObj = activeDocument.selection[cpi];
-	testObj(currentObj);
+        currentObj = sel[cpi];
+        testObj(currentObj);
 	}
 }
 		 
