@@ -6,7 +6,8 @@
 //
 //   Divide and Dash attempts to build on the original divide script
 //    to provide a vector cuttable dashed line for laser cutting.
-
+//    2016-06-05 
+//    by John Wundes   http://wundes.com/JS4AI/
 var ver10 = version.indexOf('10') == 0;
 
 main();
